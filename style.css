@@ -5,17 +5,110 @@
 *{
     margin: 0;
     padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 body{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1#gerador{
     color: white;
     font-family: 'Press Start 2P';
     text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
 
+}
+
+main{
+    width: 480px;
+    color: white;
+}
+
+main span{
+    font-size: 20px;
+}
+
+input#ran{
+    width: 100%;
+    border-radius: 5px;
+    height: 18px;
+    outline: none;
+    margin-top: 5px;
+
+}
+
+button#gerador{
+    height: 40px;
+    background-color: #02735E;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #00241e;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button#gerador:hover{
+    background-color: #04ddb5;
+    color: black;
+}
+
+div#result{
+    width: 480px;
+    margin: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.title{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+div#password{
+    background-color: rgba(255, 255, 255, 0.59);
+    margin-bottom: 5px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: transform 0.5s;
+}
+div#password:hover{
+    transform: scale(1.05);
+}
+
+p#copy{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    padding: 6px 8px;
+    background-color: rgb(40, 38, 40);
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+p#copy:hover{
+    transform: scale(1.05);
 }
