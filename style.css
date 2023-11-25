@@ -104,17 +104,11 @@ div#semtela{
 
 p#copy{
     color: white;
-    cursor: pointer;
     text-align: center;
     position: relative;
     top: 30px;
     padding: 6px 8px;
     background-color: rgb(40, 38, 40);
-    transition: transform 0.5s;
     border-radius: 10px;
     display: none;
-}
-
-p#copy:hover{
-    transform: scale(1.05);
 }
