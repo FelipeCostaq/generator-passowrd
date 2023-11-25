@@ -90,7 +90,7 @@ div#password{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     transition: transform 0.5s;
 }
 
