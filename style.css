@@ -66,7 +66,7 @@ button#gerador:hover{
     color: black;
 }
 
-div#result{
+div.result{
     width: 480px;
     margin: 14px;
     display: flex;
@@ -86,15 +86,20 @@ div#password{
     margin-bottom: 5px;
     width: 500px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 5px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     transition: transform 0.5s;
 }
+
 div#password:hover{
     transform: scale(1.05);
+}
+
+div#semtela{
+    display: none;
 }
 
 p#copy{
@@ -107,6 +112,7 @@ p#copy{
     background-color: rgb(40, 38, 40);
     transition: transform 0.5s;
     border-radius: 10px;
+    display: none;
 }
 
 p#copy:hover{
