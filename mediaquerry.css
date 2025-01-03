@@ -1,0 +1,25 @@
+@media (max-width: 515px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    h1{
+        width: auto;
+    }
+
+    div.result{
+        width: auto;
+    }
+
+    main{
+        width: auto;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    div{
+        background-color: aqua;
+
+    }
+}
